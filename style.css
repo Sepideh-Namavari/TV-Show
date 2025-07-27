@@ -9,7 +9,7 @@ body {
   color: #fff;
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
+  height: 100%;
   justify-content: space-between;
 }
 
@@ -27,7 +27,6 @@ body {
   margin-left: 15rem;
   margin-right: 15rem;
   align-items: center;
-  height: 20rem;
 }
 /* Sidebar styling */
 .sidebar {
@@ -245,7 +244,6 @@ header img {
 
 .footer {
   /* position: relative; */
-  margin-top: 800px;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -280,7 +278,6 @@ header img {
   display: flex;
   justify-content: center;
 }
-/*--------------------------------------------
 /* Episode cards */
 .episodes-grid {
   display: grid;
