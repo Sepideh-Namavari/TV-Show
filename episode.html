@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Episodes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+ <div class="sidebar">
+          <nav>
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-fire"></i> Trending</a>
+            <a href="#"><i class="fas fa-heart"></i> Favorite</a>
+            <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+          </nav>
+        </div>
+
+<header class="search-header">
+            <h1 class="logo">TV<span>SHOW</span></h1>
+            <div class="search-box" id="search-ep">
+              <select type="text" id="search">
+              </select>
+            </div>
+            <button class="search-btn"><i class="fas fa-play"></i></button>
+          </header>
+
+
+
+    <div class="maincontent">
+      <!-- <select id="episodeSelector">
+        <option disabled selected>All Episodes</option>
+      </select> -->
+      <div id="episodes-container" class="episodes-grid"></div>
+    </div>
+  <footer class="footer">
+      <ul class="footer-items">
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fab fa-telegram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+      <p>
+        Data from
+        <a id="footer-link" href="https://www.tvmaze.com" target="_blank"
+          >TVMaze.com</a
+        >
+      </p>
+    </footer>
+    <script src="episode.js"></script>
+  </body>
+</html>
